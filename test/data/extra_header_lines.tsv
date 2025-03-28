@@ -1,0 +1,2 @@
+@RG	ID:test	PL:ILLUMINA	SM:bar
+@RG	ID:foo	PL:ILLUMINA	SM:bar
