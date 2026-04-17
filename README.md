@@ -1,7 +1,5 @@
 # weaver
 
-*Source code is available upon request and will be made publicly available prior to publication*
-
 Weaver is a short read mapper for pangenome references. Weaver supports both linear (FASTA) and graphs (rGFA) inputs and additionally uses small variants in a supplementary VCF file. It is designed to reduce reference bias in variant calling while being a simple drop-in replacement for linear reference mappers.
 
 ## Getting started
