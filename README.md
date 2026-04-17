@@ -83,6 +83,7 @@ To run the unit test suite use (possible when source code has been released):
 ```sh
 make # Compiles everything, including the units test
 make test # Runs the unit tests
+./weaver version # Check version
 ```
 
 ## License

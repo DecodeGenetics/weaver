@@ -1,0 +1,10 @@
+/*! \mainpage
+
+@section overview Overview
+
+Weaver maps and aligns sequence reads to a graph. It currently has (limited) support for short paired end reads and
+rGFA graphs.
+
+@author Hannes P Eggertsson
+@copyright MIT
+ */

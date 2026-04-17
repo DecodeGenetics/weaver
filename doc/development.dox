@@ -1,0 +1,16 @@
+/*!
+@page development Development
+
+@section style Code style
+
+The code formatting style is defined in the `.clang-format` config file. The entire codebase can be formatted with the `do_format` target and checked with `check_format`. Currently the code is formatted with Clang 12.0.0, any other version might produce a different output, unfertunately.
+
+@section int_types Integer types
+
+Choosing integer types follows the google c++ style. In short, signed integer types are preferred and the default integer type is `int` which is assumed to be at least 32 bits. If the value need a larger integer type then use `int64_t`. If the integer is storing bit fields then use `uintX_t` types. Notable examples of bit fields in weaver where unsigned integer types are used:
+
+- `uint16_t` SAM bit flags, made up of many 1 bit flags.
+- `uint32_t` GFA vertices, made up of rid (31 bits) and strand (1 bit).
+- `uint64_t` minimizer sketch values (rid 32 bits, pos 31 bits, strand 1 bit).
+
+ */
