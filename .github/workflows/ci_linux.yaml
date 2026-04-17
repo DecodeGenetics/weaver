@@ -93,7 +93,7 @@ jobs:
         run: sudo apt-get install --yes zstd libzstd-dev
 
       - name: Load ccache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: .ccache
           key: ${{ runner.os }}-${{ matrix.name }}-ccache-${{ github.ref }}-${{ github.run_number }}
