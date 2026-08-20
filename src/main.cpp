@@ -100,7 +100,7 @@ int subcmd_map(paw::Parser & parser)
                       'a',
                       "advanced",
                       "Set to enable advanced options. "
-                      "See a list of all options (including advanced) with 'graphtyper genotype --advanced --help'");
+                      "See a list of all options (including advanced) with 'weaver map --advanced --help'");
 
   if (see_advanced_options)
     parser.see_advanced_options(true);
